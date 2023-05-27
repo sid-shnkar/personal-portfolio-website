@@ -33,7 +33,8 @@ import {
   udemy_logo,
   postman_logo,
   parsec_logo,
-  inter_iit_logo
+  inter_iit_logo,
+  devops_logo
 } from "../assets";
 
 import {
@@ -430,6 +431,42 @@ export const experiences = [
 export const projects = [
   {
     id: "project-1",
+    title: "To-do list App with AWS & Jenkins CI/CD",
+    github: "https://github.com/sid-shnkar/nodejs-jenkins-aws-ci-cd",
+    link: "",
+    image: devops_logo,
+    content:
+      "A NodeJs To-do List app which has completely automated deployment using Jenkins, AWS EC2, Docker and GitHub CI/CD. Created an AWS EC2 instance, installed Jenkins on the server, then integrated Jenkins with GitHub repo containing NodeJS app code. Next, using Docker, I dockerized the NodeJS app and automated this process on Jenkins. Finally automated the whole process using GitHub Webhooks.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: DiNodejs,
+        name: "NodeJS"
+      },
+      {
+        id: "icon-2",
+        icon: SiAmazonaws,
+        name: "AWS"
+      },
+      {
+        id: "icon-3",
+        icon: SiJenkins,
+        name: "Jenkins"
+      },
+      {
+        id: "icon-4",
+        icon: SiDocker,
+        name: "Docker"
+      },
+      {
+        id: "icon-5",
+        icon: AiFillGithub,
+        name: "GitHub"
+      },
+    ],
+  },
+  {
+    id: "project-2",
     title: "Pizza Delivery Web Application",
     github: "https://github.com/sid-shnkar/Pizza-Delivery-App",
     link: "",
@@ -455,7 +492,7 @@ export const projects = [
     ],
   },
   {
-    id: "project-2",
+    id: "project-3",
     title: "Vehicle Number Plate Detection and Recognition",
     github: "https://github.com/sid-shnkar/Vehicle-number-plate-detection-recognition",
     link: "",
@@ -476,7 +513,7 @@ export const projects = [
     ],
   },
   {
-    id: "project-3",
+    id: "project-4",
     title: "Airline Management System",
     github: "https://github.com/sid-shnkar/Airline-Management-System",
     link: "",

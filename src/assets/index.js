@@ -30,6 +30,7 @@ import cluboard from "./cluboard.png";
 import cash_flow from "./cash_flow.jpg";
 import freadom from "./freadom.jpg";
 import bank from "./bank.jpg";
+import devops_logo from "./devops_logo.png";
 import necxis from "./necxis_logo.png";
 import oyebusy from "./oyebusy_logo.jpeg";
 import gdsc from "./gdsc.png";
@@ -40,7 +41,6 @@ import graphql from "./graphql.png";
 import portfolio from "./portfolio.jpg";
 import zulip from "./zulip.jpg";
 import publiclab from "./publiclab.png";
-// import cdc from "./cdc.png";
 import chargeswap from "./chargeswap.png";
 import placeicon from "./place-icon.svg";
 import recruitment from "./recruitment.png";
@@ -102,7 +102,7 @@ export {
   portfolio,
   publiclab,
   zulip,
-  // cdc,
+  devops_logo,
   homePageLogo,
   profilePic,
   chargeswap,
