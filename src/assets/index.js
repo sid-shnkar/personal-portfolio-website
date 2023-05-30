@@ -57,11 +57,13 @@ import cybrary_logo from "./cybrary_logo.png";
 import postman_logo from "./postman_logo.png";
 import parsec_logo from "./parsec_logo.jpeg";
 import inter_iit_logo from "./inter_iit_logo.png";
+import reddit_kubernetes_logo from "./kubernetes_reddit_logo.png"; 
 
 export {
   airbnb,
   ams_logo,
   bill,
+  reddit_kubernetes_logo,
   binance,
   card,
   coinbase,

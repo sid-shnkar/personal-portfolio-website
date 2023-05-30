@@ -34,7 +34,8 @@ import {
   postman_logo,
   parsec_logo,
   inter_iit_logo,
-  devops_logo
+  devops_logo,
+  reddit_kubernetes_logo
 } from "../assets";
 
 import {
@@ -93,7 +94,8 @@ import {
   SiLinux,
   SiWindows,
   SiAmazonaws,
-  SiGooglecloud
+  SiGooglecloud,
+  SiKubernetes
 } from "react-icons/si";
 
 import {
@@ -493,6 +495,37 @@ export const projects = [
   },
   {
     id: "project-3",
+    title: "Reddit App Clone Kubernetes Deployment",
+    github: "https://github.com/sid-shnkar/reddit-clone-kubernetes-devops",
+    link: "",
+    image: reddit_kubernetes_logo,
+    content:
+      "Deployed the Reddit app clone on Kubernetes cluster with ingress, using AWS and Docker. Provisioned two AWS EC2 instances - CI server for building and pushing the docker image to docker hub, and Deployment server for deploying the app on kubernetes cluster and creating a service to expose it to the public internet. Also used Ingress for routing the traffic coming to the cluster IP to a domain name.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiKubernetes,
+        name: "Kubernetes"
+      },
+      {
+        id: "icon-2",
+        icon: SiDocker,
+        name: "Docker"
+      },
+      {
+        id: "icon-3",
+        icon: SiAmazonaws,
+        name: "AWS"
+      },
+      {
+        id: "icon-4",
+        icon: AiFillGithub,
+        name: "GitHub"
+      },
+    ],
+  },
+  {
+    id: "project-4",
     title: "Vehicle Number Plate Detection and Recognition",
     github: "https://github.com/sid-shnkar/Vehicle-number-plate-detection-recognition",
     link: "",
@@ -513,7 +546,7 @@ export const projects = [
     ],
   },
   {
-    id: "project-4",
+    id: "project-5",
     title: "Airline Management System",
     github: "https://github.com/sid-shnkar/Airline-Management-System",
     link: "",
