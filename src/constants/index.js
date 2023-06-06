@@ -35,7 +35,8 @@ import {
   parsec_logo,
   inter_iit_logo,
   devops_logo,
-  reddit_kubernetes_logo
+  reddit_kubernetes_logo,
+  aws_logo
 } from "../assets";
 
 import {
@@ -670,6 +671,18 @@ export const stats = [
 
 export const extraCurricular = [
   {
+    organisation: "AWS Certified Cloud Practioner",
+    title: "AWS",
+    duration: "June, 2023",
+    content: [
+      {
+        text: "Earners of this certification have a fundamental understanding of IT services and their uses in the AWS Cloud. They demonstrated cloud fluency and foundational AWS knowledge.",
+        link: "https://www.credly.com/badges/08ebbb29-1062-4d74-a2bf-5d0a9bca4985/public_url",
+      },
+    ],
+    logo: aws_logo,
+  },
+  {
     organisation: "The Complete NodeJS Developer Course",
     title: "Udemy",
     duration: "June 2022",
@@ -749,18 +762,6 @@ export const extraCurricular = [
       {
         text: "This course teach us on how to use NumPy, Pandas, Seaborn , Matplotlib , Plotly , Scikit-Learn , Machine Learning, Tensorflow , and more!",
         link: "https://www.udemy.com/certificate/UC-601b2db4-4ca6-4625-a814-5f73ccc2a730/",
-      },
-    ],
-    logo: udemy_logo,
-  },
-  {
-    organisation: "Ultimate AWS Certified Cloud Practioner",
-    title: "Udemy",
-    duration: "May 2023",
-    content: [
-      {
-        text: "A course that covers in-depth all the new topics on the AWS Certified Cloud Practitioner CLF-C01 exam. It is packed with practical knowledge on how to use AWS inside and out",
-        link: "https://www.udemy.com/certificate/UC-a193bb81-b917-4061-9283-bf0166dda00c/",
       },
     ],
     logo: udemy_logo,
