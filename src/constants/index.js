@@ -434,12 +434,12 @@ export const experiences = [
 export const projects = [
   {
     id: "project-1",
-    title: "To-do list App with AWS & Jenkins CI/CD",
-    github: "https://github.com/sid-shnkar/nodejs-jenkins-aws-ci-cd",
+    title: "TodaySphere Node.js App with AWS & Jenkins CI/CD",
+    github: "https://github.com/sid-shnkar/TodaySphere-NodeJS-App-Devops",
     link: "",
     image: devops_logo,
     content:
-      "A NodeJs To-do List app which has completely automated deployment using Jenkins, AWS EC2, Docker and GitHub CI/CD. Created an AWS EC2 instance, installed Jenkins on the server, then integrated Jenkins with GitHub repo containing NodeJS app code. Next, using Docker, I dockerized the NodeJS app and automated this process on Jenkins. Finally automated the whole process using GitHub Webhooks.",
+      "TodaySphere Node.js App which has completely automated deployment using Jenkins, AWS EC2, Docker and GitHub CI/CD. This app accepts location as an input from the user and based on that it shows the current weather, news for that location/region, an activity of the day which the user can perform and NASA's Astronomy Picture of the Day. A one-stop solution to start a good day!",
     stack: [
       {
         id: "icon-1",
