@@ -481,8 +481,8 @@ export const projects = [
   },
   {
     id: "project-2",
-    title: "To-do list App with AWS & Jenkins CI/CD",
-    github: "https://github.com/sid-shnkar/nodejs-jenkins-aws-ci-cd",
+    title: "TodaySphere Node.js App with CI/CD",
+    github: "https://github.com/sid-shnkar/TodaySphere-NodeJS-App-Devops",
     link: "",
     image: devops_logo,
     content:
