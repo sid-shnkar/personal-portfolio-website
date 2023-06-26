@@ -36,7 +36,8 @@ import {
   inter_iit_logo,
   devops_logo,
   reddit_kubernetes_logo,
-  aws_logo
+  aws_logo,
+  konnecto_portfolio_logo
 } from "../assets";
 
 import {
@@ -434,6 +435,52 @@ export const experiences = [
 export const projects = [
   {
     id: "project-1",
+    title: "Konnecto MERN Stack App with CI/CD",
+    github: "https://github.com/sid-shnkar/Konnecto-MERN-Stack-App-with-CI-CD",
+    link: "",
+    image: konnecto_portfolio_logo,
+    content:
+      "Konnecto MERN Stack App is a social media platform where users can connect with each other, by creating new posts, liking and commenting on each other's posts, adding users to friend list, and live chat with any friend of their choice. This App has automated CI/CD pipeline which involves building, testing and deployment, using GitLab, Postman, Newman and Jenkins.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiReact,
+        name: "ReactJS"
+      },
+      {
+        id: "icon-2",
+        icon: DiNodejs,
+        name: "NodeJS"
+      },
+      {
+        id: "icon-3",
+        icon: SiMongodb,
+        name: "MongoDB"
+      },
+      {
+        id: "icon-4",
+        icon: SiPostman,
+        name: "Postman"
+      },
+      {
+        id: "icon-5",
+        icon: AiOutlineGitlab,
+        name: "GitLab"
+      },
+      {
+        id: "icon-6",
+        icon: SiJenkins,
+        name: "Jenkins"
+      },
+      {
+        id: "icon-7",
+        icon: AiFillGithub,
+        name: "GitHub"
+      },
+    ],
+  },
+  {
+    id: "project-2",
     title: "To-do list App with AWS & Jenkins CI/CD",
     github: "https://github.com/sid-shnkar/nodejs-jenkins-aws-ci-cd",
     link: "",
@@ -469,9 +516,9 @@ export const projects = [
     ],
   },
   {
-    id: "project-2",
-    title: "Pizza Delivery Web Application",
-    github: "https://github.com/sid-shnkar/Pizza-Delivery-App",
+    id: "project-3",
+    title: "PizzaGo Nest.js App",
+    github: "https://github.com/sid-shnkar/PizzaGo-NestJS-App",
     link: "",
     image: pizza_logo,
     content:
@@ -495,7 +542,7 @@ export const projects = [
     ],
   },
   {
-    id: "project-3",
+    id: "project-4",
     title: "Reddit App Clone Kubernetes Deployment",
     github: "https://github.com/sid-shnkar/reddit-clone-kubernetes-devops",
     link: "",
@@ -526,7 +573,7 @@ export const projects = [
     ],
   },
   {
-    id: "project-4",
+    id: "project-5",
     title: "Vehicle Number Plate Detection and Recognition",
     github: "https://github.com/sid-shnkar/Vehicle-number-plate-detection-recognition",
     link: "",
@@ -547,7 +594,7 @@ export const projects = [
     ],
   },
   {
-    id: "project-5",
+    id: "project-6",
     title: "Airline Management System",
     github: "https://github.com/sid-shnkar/Airline-Management-System",
     link: "",
