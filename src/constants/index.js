@@ -116,7 +116,7 @@ import {
 
 import { DiCss3, DiMsqlServer, DiRuby } from "react-icons/di";
 
-export const resumeLink = "https://drive.google.com/file/d/1m0sprDFNuW77_6hlMy84OM_X6ERcWryk/view?usp=share_link";
+export const resumeLink = "https://drive.google.com/file/d/1iq8Uw2_E5bzhVFqWuFItUQ60VKysCN_3/view?usp=sharing";
 export const repoLink = "https://github.com/sid-shnkar";
 
 export const callToAction = "https://www.linkedin.com/in/siddharth-shankar-9b3749220/";
