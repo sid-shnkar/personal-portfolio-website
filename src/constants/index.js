@@ -116,7 +116,7 @@ import {
 
 import { DiCss3, DiMsqlServer, DiRuby } from "react-icons/di";
 
-export const resumeLink = "https://drive.google.com/file/d/1iq8Uw2_E5bzhVFqWuFItUQ60VKysCN_3/view?usp=sharing";
+export const resumeLink = "https://drive.google.com/file/d/1nxmgmATLZfUofN1rz1-Jq2DjE1taiBsy/view";
 export const repoLink = "https://github.com/sid-shnkar";
 
 export const callToAction = "https://www.linkedin.com/in/siddharth-shankar-9b3749220/";
@@ -899,11 +899,6 @@ export const socialMedia = [
     id: "social-media-4",
     icon: SiMedium,
     link: "https://medium.com/@sidshnkar",
-  },
-  {
-    id: "social-media-5",
-    icon: SiLeetcode,
-    link: "https://leetcode.com/sidshnkar/",
   },
 ];
 
