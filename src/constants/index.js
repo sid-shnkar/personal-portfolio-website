@@ -38,7 +38,8 @@ import {
   reddit_kubernetes_logo,
   aws_logo,
   konnecto_portfolio_logo,
-  rideally_logo
+  rideally_logo,
+  o9solutions_logo
 } from "../assets";
 
 import {
@@ -330,6 +331,23 @@ export const skills = [
 ];
 
 export const experiences = [
+  {
+    organisation: "o9 Solutions, Inc.",
+    logo: o9solutions_logo,
+    link: "https://drive.google.com/file/d/1EaTrqqZA4bt9rL8X-Em2lKWY7JKoqZ89/view?usp=share_link",
+    positions: [
+      {
+        title: "",
+        duration: "Associate DevOps Engineer | May 2024 - Present",
+        content: [
+          {
+            text: "Currenty working on DevSecOps initiatives, focusing on the deployment of security agents, WAF implementation and and addressing critical vulnerabilities patching",
+            link: "",
+          },
+        ],
+      }
+    ],
+  },
   {
     organisation: "RideAlly (Guaranteed Pre-booked Cabs)",
     logo: rideally_logo,
@@ -856,6 +874,18 @@ export const extraCurricular = [
 
 export const achievements = [
   {
+    organisation: "SecOps Champion of the Month",
+    title: "o9 Solutions Inc.",
+    duration: "October 2024",
+    content: [
+      {
+        text: "Became the SecOps Champion of the Month in the month of October for reducing security compliance risks by approximately 90% in a short timeframe and maintaining high security standards as part of the DevSecOps initiatives.",
+        link: "",
+      },
+    ],
+    logo: o9solutions_logo,
+  },
+  {
     organisation: "First position in Parsec: Bithunt 3.0",
     title: "Parsec, IIT Dharwad",
     duration: "March 2023",
@@ -950,6 +980,6 @@ export const clients = [
 
 export const aboutMe = {
     name: "Siddharth Shankar",
-    tagLine: "Backend Developer | CSE'24 @ IIT Dharwad",
+    tagLine: "Associate DevOps Engineer | Backend Developer | B.Tech CSE'24 @ IIT Dharwad",
     intro: "A Passionate self-taught software developer from India who completed his B.Tech in CSE from IIT Dharwad and is currently working as a DevOps Engineer"
 }

@@ -61,7 +61,7 @@ import reddit_kubernetes_logo from "./kubernetes_reddit_logo.png";
 import aws_logo from "./aws_logo.jpg";
 import konnecto_portfolio_logo from "./konnecto-portfolio-logo.jpg";
 import rideally_logo from "./rideally_logo.jpg";
-
+import o9solutions_logo from "./o9solutions_logo.jpg";
 export {
   airbnb,
   ams_logo,
@@ -125,5 +125,6 @@ export {
   inter_iit_logo,
   aws_logo,
   konnecto_portfolio_logo,
-  rideally_logo
+  rideally_logo,
+  o9solutions_logo
 };
