@@ -879,7 +879,7 @@ export const achievements = [
     duration: "October 2024",
     content: [
       {
-        text: "Became the SecOps Champion of the Month in the month of October for reducing security compliance risks by approximately 90% in a short timeframe and maintaining high security standards as part of the DevSecOps initiatives.",
+        text: "Earned this award for reducing security compliance risks by approximately 90% in a short timeframe and maintaining high security standards as part of the DevSecOps initiatives.",
         link: "",
       },
     ],
@@ -981,5 +981,5 @@ export const clients = [
 export const aboutMe = {
     name: "Siddharth Shankar",
     tagLine: "Associate DevOps Engineer | Backend Developer | B.Tech CSE'24 @ IIT Dharwad",
-    intro: "A Passionate self-taught software developer from India who completed his B.Tech in CSE from IIT Dharwad and is currently working as a DevOps Engineer"
+    intro: "A Passionate self-taught software developer from India who completed his B.Tech in CSE from IIT Dharwad and is currently working as an Associate DevOps Engineer"
 }
