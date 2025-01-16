@@ -164,7 +164,7 @@ export const educationList = [
     id: "education-2",
     icon: dpsvk,
     title: "Delhi Public School Vasant Kunj, India",
-    degree: "High School Diploma",
+    degree: "Higher Secondary Certificate (HSC)",
     duration: "April 2019 - March 2020",
     content1: "Major: Physics, Chemistry, Maths (Science stream - PCM)",
     content2: "Percentage: 95% (Class 12th) and 90% (Class 10th)",
@@ -215,11 +215,11 @@ export const skills = [
         icon: DiMysql,
         name: "MySQL",
       },
-      {
-        id: "pl-9",
-        icon: DiPhp,
-        name: "PHP",
-      },
+      // {
+      //   id: "pl-9",
+      //   icon: DiPhp,
+      //   name: "PHP",
+      // },
     ],
   },
   {
@@ -331,13 +331,13 @@ export const skills = [
 
 export const experiences = [
   {
-    organisation: "RideAlly (Guaranteed Pre-booked Cabs) - Software Development Intern",
+    organisation: "RideAlly (Guaranteed Pre-booked Cabs)",
     logo: rideally_logo,
     link: "https://drive.google.com/file/d/1EaTrqqZA4bt9rL8X-Em2lKWY7JKoqZ89/view?usp=share_link",
     positions: [
       {
         title: "",
-        duration: "Jan 2024 - April 2024",
+        duration: "Software Development Intern | Jan 2024 - April 2024",
         content: [
           {
             text: "Migrated the project from a monolithic architecture based on legacy PHP Zend Framework to a microservices-based Express.js application",
@@ -356,13 +356,13 @@ export const experiences = [
     ],
   },
   {
-    organisation: "Necxis (Detrator Corportation) - Node.js Developer Intern",
+    organisation: "Necxis (Detrator Corportation)",
     logo: necxis,
     link: "https://drive.google.com/file/d/1EaTrqqZA4bt9rL8X-Em2lKWY7JKoqZ89/view?usp=share_link",
     positions: [
       {
         title: "",
-        duration: "Feb 2023 - March 2023",
+        duration: "Node.js Developer Intern | Feb 2023 - March 2023",
         content: [
           {
             text: "Working with a startup which is currently building a social media platform.",
@@ -377,13 +377,13 @@ export const experiences = [
     ],
   },
   {
-    organisation: "OyeBusy Technologies Pvt. Ltd. - Backend Developer Intern",
+    organisation: "OyeBusy Technologies Pvt. Ltd.",
     logo: oyebusy,
     link: "https://drive.google.com/file/d/19v7bpoRfEuVZOR_yUWpZWwycLGehrXr3/view?usp=share_link",
     positions: [
       {
         title: "",
-        duration: "June 2022 - October 2022",
+        duration: "Backend Developer Intern | June 2022 - October 2022",
         content: [
           {
             text: "During Internship, worked with a startup which aims to deliver home services to customer via Mobile/Web apps.",
@@ -402,13 +402,13 @@ export const experiences = [
     ],
   },
   {
-    organisation: "Medium - Technical Writer (Freelance)",
+    organisation: "Medium",
     logo: medium_logo,
     link: "https://medium.com/@sidshnkar",
     positions: [
       {
         title: "",
-        duration: "Jan 2023 - Present",
+        duration: "Technical Writer (Freelance) | Jan 2023 - Present",
         content: [
           {
             text: "Writing blogs on technical content especially on backend development, pursuing it as my hobby",
@@ -440,13 +440,13 @@ export const experiences = [
   //   ],
   // },
   {
-    organisation: "Amazon - Mentee MLSS",
+    organisation: "Amazon",
     logo: amazon_logo,
     link: "https://amazon.com",
     positions: [
       {
-        title: "Mentee - Amazon ML Summer School",
-        duration: "Jun 2022 - July 2022",
+        title: "",
+        duration: "Mentee - Amazon ML Summer School | Jun 2022 - July 2022",
         content: [
           {
             text: "Ranked in top 3000 out of 24k participants, got selected for Amazon ML Summer School 2022",
@@ -951,5 +951,5 @@ export const clients = [
 export const aboutMe = {
     name: "Siddharth Shankar",
     tagLine: "Backend Developer | CSE'24 @ IIT Dharwad",
-    intro: "A Passionate self-taught software developer from India who is currently pursuing B.Tech in CSE from IIT Dharwad"
+    intro: "A Passionate self-taught software developer from India who completed his B.Tech in CSE from IIT Dharwad and is currently working as a DevOps Engineer"
 }
