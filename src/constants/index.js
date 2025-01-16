@@ -331,12 +331,12 @@ export const skills = [
 
 export const experiences = [
   {
-    organisation: "RideAlly (Guaranteed Pre-booked Cabs)",
+    organisation: "RideAlly (Guaranteed Pre-booked Cabs) - Software Development Intern",
     logo: rideally_logo,
     link: "https://drive.google.com/file/d/1EaTrqqZA4bt9rL8X-Em2lKWY7JKoqZ89/view?usp=share_link",
     positions: [
       {
-        title: "Software Development Intern",
+        title: "",
         duration: "Jan 2024 - April 2024",
         content: [
           {
@@ -356,12 +356,12 @@ export const experiences = [
     ],
   },
   {
-    organisation: "Necxis (Detrator Corportation)",
+    organisation: "Necxis (Detrator Corportation) - Node.js Developer Intern",
     logo: necxis,
     link: "https://drive.google.com/file/d/1EaTrqqZA4bt9rL8X-Em2lKWY7JKoqZ89/view?usp=share_link",
     positions: [
       {
-        title: "Node.js Developer Intern",
+        title: "",
         duration: "Feb 2023 - March 2023",
         content: [
           {
@@ -377,12 +377,12 @@ export const experiences = [
     ],
   },
   {
-    organisation: "OyeBusy Technologies Pvt. Ltd.",
+    organisation: "OyeBusy Technologies Pvt. Ltd. - Backend Developer Intern",
     logo: oyebusy,
     link: "https://drive.google.com/file/d/19v7bpoRfEuVZOR_yUWpZWwycLGehrXr3/view?usp=share_link",
     positions: [
       {
-        title: "Backend Developer Intern",
+        title: "",
         duration: "June 2022 - October 2022",
         content: [
           {
@@ -402,12 +402,12 @@ export const experiences = [
     ],
   },
   {
-    organisation: "Medium",
+    organisation: "Medium - Technical Writer (Freelance)",
     logo: medium_logo,
     link: "https://medium.com/@sidshnkar",
     positions: [
       {
-        title: "Technical Writer (Freelance)",
+        title: "",
         duration: "Jan 2023 - Present",
         content: [
           {
@@ -440,7 +440,7 @@ export const experiences = [
   //   ],
   // },
   {
-    organisation: "Amazon",
+    organisation: "Amazon - Mentee MLSS",
     logo: amazon_logo,
     link: "https://amazon.com",
     positions: [
