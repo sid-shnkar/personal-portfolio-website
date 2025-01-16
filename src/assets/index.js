@@ -60,6 +60,7 @@ import inter_iit_logo from "./inter_iit_logo.png";
 import reddit_kubernetes_logo from "./kubernetes_reddit_logo.png"; 
 import aws_logo from "./aws_logo.jpg";
 import konnecto_portfolio_logo from "./konnecto-portfolio-logo.jpg";
+import rideally_logo from "./rideally_logo.jpg";
 
 export {
   airbnb,
@@ -123,5 +124,6 @@ export {
   parsec_logo,
   inter_iit_logo,
   aws_logo,
-  konnecto_portfolio_logo
+  konnecto_portfolio_logo,
+  rideally_logo
 };

@@ -37,7 +37,8 @@ import {
   devops_logo,
   reddit_kubernetes_logo,
   aws_logo,
-  konnecto_portfolio_logo
+  konnecto_portfolio_logo,
+  rideally_logo
 } from "../assets";
 
 import {
@@ -97,7 +98,8 @@ import {
   SiWindows,
   SiAmazonaws,
   SiGooglecloud,
-  SiKubernetes
+  SiKubernetes,
+  SiMicrosoftazure
 } from "react-icons/si";
 
 import {
@@ -156,7 +158,7 @@ export const educationList = [
     degree: "Bachelor of Technology",
     duration: "November 2020 - July 2024",
     content1: "Major: Computer Science and Engineering",
-    content2: "CGPA: 8.94 (till 6th semester)",
+    content2: "CGPA: 8.94",
   },
   {
     id: "education-2",
@@ -243,11 +245,6 @@ export const skills = [
         icon: SiScikitlearn,
         name: "ScikitLearn",
       },
-      {
-        id: "f-5",
-        icon: SiOpencv,
-        name: "OpenCV",
-      },
     ],
   },
   {
@@ -323,11 +320,41 @@ export const skills = [
         icon: SiGooglecloud,
         name: "Google Cloud",
       },
+      {
+        id: "pf-5",
+        icon: SiMicrosoftazure,
+        name: "Microsoft Azure",
+      },
     ],
   },
 ];
 
 export const experiences = [
+  {
+    organisation: "RideAlly (Guaranteed Pre-booked Cabs)",
+    logo: rideally_logo,
+    link: "https://drive.google.com/file/d/1EaTrqqZA4bt9rL8X-Em2lKWY7JKoqZ89/view?usp=share_link",
+    positions: [
+      {
+        title: "Software Development Intern",
+        duration: "Jan 2024 - April 2024",
+        content: [
+          {
+            text: "Migrated the project from a monolithic architecture based on legacy PHP Zend Framework to a microservices-based Express.js application",
+            link: "",
+          },
+          {
+            text: "Implemented a reverse proxy service for the microservices application, utilized Redis for caching, and containerized the application using Docker",
+            link: "",
+          },
+          {
+            text: "Authored OpenAPI specifications for the APIs and documented the project comprehensively on Confluence.",
+            link: "",
+          },
+        ],
+      }
+    ],
+  },
   {
     organisation: "Necxis (Detrator Corportation)",
     logo: necxis,
@@ -391,27 +418,27 @@ export const experiences = [
       },
     ],
   },
-  {
-    organisation: "Indian Institute of Technology Dharwad",
-    logo: iitdh,
-    link: "https://iitdh.ac.in",
-    positions: [
-      {
-        title: "Admin of Space Data Science Club",
-        duration: "Dec 2021 - Present",
-        content: [
-          {
-            text: "Organized workshops and events on data visualization, processing, and modelling.",
-            link: "",
-          },
-          {
-            text: "Enhancing my Analytical Skills, Team Management, Interpersonal Communication skills along with technical skills",
-            link: "",
-          },
-        ],
-      },
-    ],
-  },
+  // {
+  //   organisation: "Indian Institute of Technology Dharwad",
+  //   logo: iitdh,
+  //   link: "https://iitdh.ac.in",
+  //   positions: [
+  //     {
+  //       title: "Admin of Space Data Science Club",
+  //       duration: "Dec 2021 - Present",
+  //       content: [
+  //         {
+  //           text: "Organized workshops and events on data visualization, processing, and modelling.",
+  //           link: "",
+  //         },
+  //         {
+  //           text: "Enhancing my Analytical Skills, Team Management, Interpersonal Communication skills along with technical skills",
+  //           link: "",
+  //         },
+  //       ],
+  //     },
+  //   ],
+  // },
   {
     organisation: "Amazon",
     logo: amazon_logo,
