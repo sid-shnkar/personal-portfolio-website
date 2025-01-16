@@ -12,9 +12,12 @@ const Footer = () => (
       className={`${layout.sectionReverse} xl:max-w-[1280px] w-full mx-auto gap-y-4 `}
     >
       <div className={` ${layout.sectionInfo}`}>
-        <h2 className="text-xl font-bold text-gray-800 font-poppins dark:text-white hover:text-gray-700 dark:hover:text-gray-300">
+        {/* <h2 className="text-xl font-bold text-gray-800 font-poppins dark:text-white hover:text-gray-700 dark:hover:text-gray-300">
           {aboutMe.name}
-        </h2>
+        </h2> */}
+        <h2 className="text-xl font-bold text-white font-poppins hover:text-gray-300">
+          {aboutMe.name}
+       </h2>
         <p
           className={`font-poppins font-normal text-dimWhite text-[16px] leading-[30.8px] max-w-[470px] mt-5`}
         >

@@ -5,7 +5,7 @@ import card from "./card.png";
 import coinbase from "./coinbase.png";
 import dropbox from "./dropbox.png";
 import homePageLogo from "./home_page_logo.svg";
-import profilePic from "./profile-pic.png";
+import profilePic from "./profile-pic-new.png";
 import quotes from "./quotes.svg";
 import robot from "./robot.png";
 import send from "./Send.svg";
